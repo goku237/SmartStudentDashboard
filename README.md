@@ -29,10 +29,6 @@ Break management
 Visual progress tracking,
 Task completion insights
 
-🔐 Authentication
-
-Secure login & signup
-
 ☁️ Cloud Database
 
 Real-time data storage and sync
