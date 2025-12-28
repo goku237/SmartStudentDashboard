@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
-export default function ThemeToggle() {
+export default function ThemeToggle({ style }) {
   const { dark, setDark } = useContext(ThemeContext);
 
   return (
-    <button className="btn" onClick={() => setDark(!dark)}>
+    <button className="btn" style={style} onClick={() => setDark(!dark)}>
       {dark ? "☀ Light Mode" : "🌙 Dark Mode"}
     </button>
   );
